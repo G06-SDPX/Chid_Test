@@ -9,7 +9,7 @@ Check Is Prime
 
 *** Test Cases ***
 true_when_x_is_7
-    Create Session    session    http://127.0.0.1:5000/
+    Create Session    session    http://192.168.17.133:5000/
     Check Is Prime    17    True
 
 false_when_x_is_36
